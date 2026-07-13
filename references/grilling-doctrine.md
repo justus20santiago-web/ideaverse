@@ -112,3 +112,19 @@ disk, source URL on every claim.
   — also `gh search code` and `gh search issues` for implementation and pain-point
   detail. Stars plus recent pushes mean a live competitor or a dependency candidate;
   either one changes the build plan, and tech-bro wants to know before a line is written.
+
+## 11. The knowledge base is the brain: read first, write back
+
+If a local knowledge-base config exists at `references/vault.local.md`, every research
+pass obeys it (no config file → skip this section):
+
+- **Read first.** Before any rail fires (§9–§10), check the knowledge base for an
+  existing note that already answers the question, and research only the gap. Re-buying
+  an answer the base already holds wastes spend and drifts from recorded truth.
+- **Raw exhaust stays out.** Scraped JSON/CSV goes to the configured output directory —
+  never into the knowledge base, never committed to the product repo.
+- **Graduated findings write back.** The sourced tables, verbatim demand evidence, and
+  prior-art verdicts that earn a place in `context.md` also update the product's
+  knowledge-base note through the configured write path *before the persona hands off*.
+  Every research pass must leave the base denser than it found it — a one-off answer
+  that dies with the session is a bug, not a deliverable.
