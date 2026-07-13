@@ -1,5 +1,5 @@
 ---
-name: kimchi
+name: ideaverse
 description: >-
   Turn a raw product idea into a clean, build-ready doc set your AI can execute
   autonomously — one doc per EPIC with locked decisions, exact API contracts, a
@@ -17,7 +17,7 @@ description: >-
   research rails — Nimble CLI web data, Reddit demand-proof, GitHub prior-art.
 ---
 
-# kimchi (local fork)
+# ideaverse
 
 Run a product from idea → build-ready docs by **grilling the user**, not flattering
 them. The user summons expert personas one at a time. Each persona interrogates the
@@ -45,16 +45,16 @@ Local additions, in `references/grilling-doctrine.md`:
 
 ## How to invoke
 
-`/kimchi <persona>` — summon one persona. Accepts full name, kebab-case, or
+`/ideaverse <persona>` — summon one persona. Accepts full name, kebab-case, or
 acronym. Case-insensitive. Examples: `product head`, `product-head`, `PH`.
 
-`/kimchi` — no argument. Print the how-to below, then walk the user through
+`/ideaverse` — no argument. Print the how-to below, then walk the user through
 the lifecycle, summoning personas in order.
 
-`/kimchi generate` — after enough personas have weighed in, produce the EPIC
+`/ideaverse generate` — after enough personas have weighed in, produce the EPIC
 build docs (see "Generating the docs").
 
-`/kimchi audit` — run the Auditor over the completed decisions.
+`/ideaverse audit` — run the Auditor over the completed decisions.
 
 ## Persona roster
 
@@ -175,4 +175,4 @@ runs in **two modes**:
   actually shipped, where it drifted from the plan, and whether each call still holds.
 
 Both modes produce `docs/product/AUDIT.md` — per-persona verdicts, regrets, and fixes. Run
-with `/kimchi audit`. See `references/personas/auditor.md`.
+with `/ideaverse audit`. See `references/personas/auditor.md`.

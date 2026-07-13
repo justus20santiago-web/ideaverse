@@ -1,6 +1,6 @@
 # Templates — context handoff, EPIC docs, audit
 
-All kimchi artifacts live in `docs/product/` in the repo. Create the directory
+All ideaverse artifacts live in `docs/product/` in the repo. Create the directory
 if missing.
 
 ---
@@ -167,7 +167,7 @@ in `README.md` and the `EPIC-*.md` docs — do not re-litigate decisions already
 ## Before the first build session — pre-build audit gate
 
 Do not write code until the docs have passed a pre-build audit. If `docs/product/AUDIT.md`
-does not exist or is stale, run the kimchi Auditor in **pre-build mode** over the docs (it
+does not exist or is stale, run the ideaverse Auditor in **pre-build mode** over the docs (it
 re-checks every persona's locked decisions for contradictions, flawed calls, and gaps
 between personas — the cheapest place to catch a bad architecture is before it's built).
 Resolve every **Revise** finding — edit the affected EPIC doc, then continue. This gate
